@@ -55,3 +55,29 @@ nav ul li a:hover{
     background-color: white;
     color: black;
 }
+
+.text{
+    color: white;
+    text-align: center;
+    padding: 250px;
+}
+.text h1{
+    font-size: 45px;
+    letter-spacing: 2px;   
+}
+
+.text button{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 2px 3px;
+    border: 2px solid white;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.text h2{
+    padding-top: 10px;
+}
