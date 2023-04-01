@@ -12,5 +12,46 @@ video{
     left: 0%;
     min-height: 100%;
     min-width: 100%;
+    z-index: -1;
+}
+
+nav{
+    display: flex;justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+nav .logo{
+    color: white;
+    margin-left: 80px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
     
+}
+
+nav ul{
+
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav ul li a{
+
+text-decoration: none;
+color: white;
+font-size: 20px;
+border-radius: 20px;
+padding: 5px 5px;
+transition: 0.5s;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
 }
